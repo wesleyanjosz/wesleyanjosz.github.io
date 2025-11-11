@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 .roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 :root {
@@ -87,7 +87,8 @@
     justify-content: center;
 }
 
-#email-container ion-icon, #email-container a {
+#email-container ion-icon,
+#email-container a {
     flex: 1 1 0;
 }
 
@@ -137,7 +138,8 @@
     display: flex;
 }
 
-#btn-projects ion-icon, #btn-projects span {
+#btn-projects ion-icon,
+#btn-projects span {
     flex: 1 1 0;
 }
 
@@ -155,6 +157,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 32px;
+    text-transform: uppercase;
 }
 
 #skills-container {
@@ -177,7 +180,7 @@
     border-left: 5px solid var(--main-color);
 }
 
-.skills-box svg {
+.skills-box i {
     font-size: 45px;
     margin-right: 10px;
 }
@@ -210,8 +213,9 @@
 
     #about-container .description {
         margin: 10px auto;
-        max-width: 10%;
+        max-width: 100%;
         line-height: 26px;
+        text-align: justify;
     }
 
     #btn-projects {
@@ -228,4 +232,17 @@
     .skills-box i {
         font-size: 60px;
     }
+}
+
+/* Ajuste */
+body {
+    font-family: roboto;
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.btn-project {
+    text-indent: 10px;
 }
