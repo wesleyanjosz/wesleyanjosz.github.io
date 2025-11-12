@@ -18,3 +18,6 @@ Este é meu portfólio com conteúdo descritivo brevemente sobre meus conhecimen
 - Visualização mobile
 - Links para projetos GitHub
 - Links para o Linkedin
+
+## Visual
+<img src="./image/portfolio.png" alt="portfolio" width="1000"/>
