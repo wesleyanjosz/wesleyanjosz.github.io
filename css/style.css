@@ -82,23 +82,23 @@
     font-size: 30px;
 }
 
-#email-container {
+#mail-container {
     display: flex;
     justify-content: center;
 }
 
-#email-container ion-icon,
-#email-container a {
+#mail-container ion-icon,
+#mail-container a {
     flex: 1 1 0;
 }
 
-#email-container a {
+#mail-container a {
     color: var(--main-color);
     text-decoration: none;
     max-width: 225px;
 }
 
-#email-container ion-icon {
+#mail-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
