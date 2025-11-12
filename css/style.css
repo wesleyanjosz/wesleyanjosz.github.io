@@ -183,7 +183,6 @@
     margin-right: 10px;
 }
 
-/* mobile */
 @media(max-width: 450px) {
     .container {
         flex-direction: column;
@@ -230,4 +229,8 @@
     .skills-box i {
         font-size: 60px;
     }
+}
+
+.upper {
+    text-transform: uppercase;
 }
