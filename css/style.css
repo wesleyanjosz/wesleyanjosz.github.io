@@ -8,12 +8,12 @@
 }
 
 :root {
-    --main-color: #54b689;
+    --main-color: rgba(0,255,0,.750);
     --main-text-color: #fff;
-    --border-color: #999;
-    --bio-bg-color: #1e2a3a;
-    --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --border-color: #000e;
+    --bio-bg-color: #000e;
+    --bio-border-color: #000e;
+    --about-bg-color: #000e;
 }
 
 .highlight {
