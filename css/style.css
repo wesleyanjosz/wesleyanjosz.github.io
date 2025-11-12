@@ -178,8 +178,8 @@
     border-left: 5px solid var(--main-color);
 }
 
-.skills-box i {
-    font-size: 45px;
+.skills-box img {
+    width: 85px;
     margin-right: 10px;
 }
 
@@ -230,17 +230,4 @@
     .skills-box i {
         font-size: 60px;
     }
-}
-
-/* Ajuste */
-body {
-    font-family: roboto;
-}
-
-.upper-text {
-    text-transform: uppercase;
-}
-
-.btn-project {
-    text-indent: 10px;
 }
